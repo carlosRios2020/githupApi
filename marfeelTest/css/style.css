@@ -1,0 +1,123 @@
+#global{
+    margin: 0px auto;
+    width: 420px;
+    background-color: white;
+    box-shadow: 1px 10px 30px  grey;
+    background-color:whitesmoke;
+    padding:20px;
+
+}
+#isCorrect{
+    margin-top: 5 px;
+    visibility: hidden;
+    position: absolute;
+}
+
+#searchUser{
+    height: 30px;
+    width: 330px;
+    border-radius: 4px;
+
+
+}
+#searchVar{ 
+
+    margin: 0px auto;
+    line-height: 45px;  
+    width: 400px;
+    margin-bottom: 20px;
+
+    
+ }
+ #btn{
+    
+     background: #ffffff;
+     font-size: 12px;
+     font-weight: 600;
+     height:40px;
+ }
+ #UserInfo{
+    min-height: 100px;
+    margin-bottom: 15px;
+
+ }
+ #repos{
+    
+    font-size: 28px;
+   
+    
+}
+ #reposTitle{
+
+     border-bottom: 2px solid black;
+     font-weight:bold;
+     font-size: 18px;
+     padding-bottom: 10px;
+     padding-top: 15px; 
+          
+
+ }
+ #List{
+     padding-top: 15px;;
+     font-weight: 400;
+     max-height: 200px;
+     overflow-y: scroll;     
+
+ }
+ 
+ /* make the scrool transparente */
+::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
+
+ #img{
+
+    float: left;
+    width: 90px;;    
+    margin-right:10px;
+    margin-top:5px;
+    
+   
+    
+
+ }
+ #fullName{
+     font-weight:600;
+     font-size: 30px;
+     max-width: 300px;
+     margin-bottom: 10px;
+    
+ }
+ 
+ .repositories{
+     
+     padding:15px;
+     vertical-align: center;
+     border-bottom: 1px solid lightgrey;
+     
+     
+ }
+ .repoName{
+    font-weight:bold;
+        max-width:280px;     
+        display: inline-block;
+        font-size: 25px;
+        float; left;
+
+ }
+.ratings{
+    display: inline-block;
+    float: right;
+}
+
+#error{
+    position: absolute;
+    visibility: hidden;
+    background-color: #f19292;
+    color: darkred;
+    border-radius: 2px;
+    width: 200px;
+    padding: 5px;
+    margin-top: 10px;
+}
